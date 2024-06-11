@@ -4,7 +4,6 @@ class Character {
   #maxHitPoints
   #curerentHitPoints
   #damage
-  #takeDamage
   constructor(name, maxHitPoints, damage) {
     this.#name = name
     this.#maxHitPoints = maxHitPoints
