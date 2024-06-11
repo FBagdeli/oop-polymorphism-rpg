@@ -1,9 +1,4 @@
 class Character {
-  #id
-  #name
-  #maxHitPoints
-  #curerentHitPoints
-  #damage
   constructor(name, maxHitPoints, damage) {
     this.name = name
     this.maxHitPoints = maxHitPoints
@@ -17,11 +12,6 @@ class Character {
       this.curerentHitPoints = 0
     }
     return this.curerentHitPoints
-  }
-
-  get getChar(){
-  
-    
   }
 }
 

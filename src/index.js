@@ -12,3 +12,4 @@ const battle = new BattleScene
 
 battle.fight(myHero, enemy1)
 battle.fight(myHero, enemy2)
+battle.fight(enemy1, enemy3)
